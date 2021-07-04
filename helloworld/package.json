@@ -1,0 +1,16 @@
+{
+  "name": "tslua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tstl",
+    "start":"tstl&&cd build&&lua main.lua",
+    "dev": "tstl --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript-to-lua": "^0.40.1"
+  }
+}
